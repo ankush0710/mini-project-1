@@ -9,7 +9,7 @@ const Login = () =>{
                 <input type="text" placeholder='Enter Your Username' className='bg-white rounded-sm px-2'/>
                 <label htmlFor="passwd">Password:</label>
                 <input type="password" placeholder='Enter Your Password' className='bg-white rounded-sm px-2'/>
-                <div className='flex flex-row gap-2'>
+                <div className='flex gap-2'>
                     <button type='submit' className='bg-[#008BFF] text-white font-semibold py-1 w-20 mt-5 rounded-md'>Login</button>
                     <button type='submit' className='bg-[#008BFF] text-white font-semibold py-1 w-20 mt-5 rounded-md'>Sign Up</button>
                 </div>

@@ -1,0 +1,48 @@
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
+
+const Navbar = () => {
+  return (
+    <>
+      <nav className="flex justify-between items-center bg-[#4A70A9] p-5">
+        <div id="logi" className="flex items-center gap-2">
+          <img
+            className="h-12 w-12"
+            src="../public/images/logo.png"
+            alt="logo"
+          />
+          <p className="text-lg font-semibold">KVA Limited</p>
+        </div>
+
+        <div id="list-items" className="hidden md:flex justify-center gap-3 text-black font-semibold">
+          <p>Home</p>
+          <p>About Us</p>
+          <p>Contact Us</p>
+        </div>
+
+        <div className="hidden md:flex md:gap-2">
+          <button
+            type="submit"
+            className="bg-[#008BFF] text-white font-semibold py-1 w-20 rounded-md"
+          >
+            Login
+          </button>
+          <button
+            type="submit"
+            className="bg-[#008BFF] text-white font-semibold py-1 w-20 rounded-md"
+          >
+            Sign Up
+          </button>
+        </div>
+
+        {/* bar icon for mobile view */}
+        <button className="md:hidden text-xl">
+          <FontAwesomeIcon icon={faBars} />
+        </button>
+      </nav>
+    </>
+  );
+};
+
+export default Navbar;

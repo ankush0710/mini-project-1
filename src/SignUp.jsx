@@ -11,7 +11,7 @@ const SignUp = () =>{
                 <input type="password" placeholder='Enter Your Password' className='bg-white rounded-sm px-2'/>
                 <label htmlFor="passwd">Confirm Password:</label>
                 <input type="password" placeholder='Enter Your Password' className='bg-white rounded-sm px-2'/>
-                <div className='flex flex-row gap-2'>
+                <div className='flex gap-2'>
                     <button type='submit' className='bg-[#008BFF] text-white font-semibold py-2 px-3 w-40 mt-5 rounded-md'>Back to Login</button>
                 </div>
             </div>
