@@ -3,6 +3,7 @@ import Login from "./Login";
 import SignUp from "./SignUp";
 import Navbar from "./component/Navbar";
 import Footer from "./component/Footer";
+import ContactUs from "./ContactUs";
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
@@ -10,9 +11,10 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-        <div className="flex justify-center items-center h-screen">
-          <SignUp />
-        </div>
+        {/* <div className="flex justify-center items-center min-h-screen">
+          <ContactUs />
+        </div> */}
+        <ContactUs />
         <Footer />
       </BrowserRouter>
     </>
