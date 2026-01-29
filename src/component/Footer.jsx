@@ -5,7 +5,7 @@ import React from 'react';
 const Footer = () => {
     return(
         <>
-          <footer className='bg-[#4A70A9] text-white flex flex-col items-center gap-3 py-3'>
+          <footer className='bg-[#4A70A9] text-white flex flex-col items-center gap-3 py-3 mt-1'>
             <p className='text-md font-semibold'>&copy; 2025 KVA Limited, Inc. All rights reserved</p>
             <ul className='flex justify-center item-center gap-3'>
                 <li><FontAwesomeIcon icon={faInstagram} className='text-lg'/></li>

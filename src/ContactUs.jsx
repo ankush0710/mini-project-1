@@ -3,13 +3,13 @@ import React from "react";
 const ContactUs = () => {
   return (
     <>
-      <div id="containerDiv" className="flex flex-col md:flex-row md:flex-grows md:min-h-">
+      <div id="containerDiv" className="flex flex-col overflow-hidden md:flex-row md:my-3 min-h-screen w-full py-8 px-4">
         <div id="address"
-          className="flex flex-col justify-center md:flex-1 md:gap-5 md:items-center md:mt-10"
+          className="flex flex-col md:flex-1 md:gap-10 md:items-center"
         >
           <div
             id="card-1"
-            className="min-h-32 min-w-45 mx-8 my-5 py-5 px-3 shadow-lg rounded-lg md:px-8 md:py-7 bg-[#E8E2D8] md:h-56 md:w-lg"
+            className="min-h-32 min-w-45 mx-8 my-2 py-5 px-3 shadow-lg rounded-lg md:px-8 md:py-7 bg-[#E8E2D8] md:h-56 md:w-lg"
           >
             <h2 className="text-xl font-bold text-gray-600 pb-3 md:text-3xl md:pb-6">
               NewYork Office
@@ -26,7 +26,7 @@ const ContactUs = () => {
           </div>
           <div
             id="card-2"
-            className="min-h-32 min-w-45 mx-8 my-5 py-5 px-3 shadow-lg rounded-lg md:px-8 md:py-7 bg-[#E8E2D8] md:h-56 md:w-lg"
+            className="min-h-32 min-w-45 mx-8 my-2 py-5 px-3 shadow-lg rounded-lg md:px-8 md:py-7 bg-[#E8E2D8] md:h-56 md:w-lg"
           >
             <h2 className="text-xl font-bold text-gray-600 pb-3 md:text-3xl md:pb-6">
               NewYork Office
@@ -42,9 +42,9 @@ const ContactUs = () => {
             </p>
           </div>
         </div>
-        <div id="contactForm" className="m-10 md:flex-1 md:justify-center">
+        <div id="contactForm" className="mx-10 md:flex-1 md:justify-center">
           <h2 className="text-3xl font-bold text-center text-gray-600 md:text-4xl">Contact Us</h2>
-          <ul className="flex flex-col gap-5 my-10">
+          <ul className="flex flex-col gap-5 mt-5">
             <li>
               <label htmlFor="Name" className="text-xl text-gray-600 font-semibold">Name: </label>
               <input type="text" for="Name"  className="w-full border-2 border-gray-300 rounded-md p-2 my-2"/>
