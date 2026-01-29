@@ -11,7 +11,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-        {/* <div className="flex justify-center items-center min-h-screen">
+        {/* <div className="">
           <ContactUs />
         </div> */}
         <ContactUs />
