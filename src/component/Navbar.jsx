@@ -16,21 +16,21 @@ const Navbar = () => {
         </div>
 
         <div id="list-items" className="hidden md:flex justify-center gap-3 text-black font-semibold">
-          <p>Home</p>
-          <p>About Us</p>
-          <p>Contact Us</p>
+          <p className="text-lg font-semibold hover:text-white cursor-pointer">Home</p>
+          <p className="text-lg font-semibold hover:text-white cursor-pointer">About Us</p>
+          <p className="text-lg font-semibold hover:text-white cursor-pointer">Contact Us</p>
         </div>
 
         <div className="hidden md:flex md:gap-2">
           <button
             type="submit"
-            className="bg-[#008BFF] text-white font-semibold py-1 w-20 rounded-md"
+            className="bg-[#008BFF] text-white font-semibold py-1 w-20 rounded-md cursor-pointer hover:bg-[#5B23FF]"
           >
             Login
           </button>
           <button
             type="submit"
-            className="bg-[#008BFF] text-white font-semibold py-1 w-20 rounded-md"
+            className="bg-[#008BFF] text-white font-semibold py-1 w-20 rounded-md cursor-pointer hover:bg-[#5B23FF]"
           >
             Sign Up
           </button>

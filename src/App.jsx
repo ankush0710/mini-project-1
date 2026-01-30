@@ -4,6 +4,7 @@ import SignUp from "./SignUp";
 import Navbar from "./component/Navbar";
 import Footer from "./component/Footer";
 import ContactUs from "./ContactUs";
+import Home from "./Home";
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
@@ -11,10 +12,7 @@ function App() {
     <>
       <BrowserRouter>
         <Navbar />
-        {/* <div className="">
-          <ContactUs />
-        </div> */}
-        <ContactUs />
+        <Home />
         <Footer />
       </BrowserRouter>
     </>
