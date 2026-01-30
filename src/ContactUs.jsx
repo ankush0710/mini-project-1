@@ -3,13 +3,13 @@ import React from "react";
 const ContactUs = () => {
   return (
     <>
-      <div id="containerDiv" className="flex flex-col overflow-hidden md:flex-row md:my-3 min-h-screen w-full py-8 px-4">
+      <div id="containerDiv" className="flex flex-col gap-8 overflow-hidden md:flex-row md:my-3 min-h-screen w-full py-8 px-4">
         <div id="address"
           className="flex flex-col md:flex-1 md:gap-10 md:items-center"
         >
           <div
             id="card-1"
-            className="min-h-32 min-w-45 mx-8 my-2 py-5 px-3 shadow-lg rounded-lg md:px-8 md:py-7 bg-[#E8E2D8] md:h-56 md:w-lg"
+            className="min-h-32 min-w-45 mx-8 my-2 py-5 px-3 md:shadow-lg rounded-lg md:px-8 md:py-7 bg-[#E8E2D8] md:h-56 md:w-lg"
           >
             <h2 className="text-xl font-bold text-gray-600 pb-3 md:text-3xl md:pb-6">
               NewYork Office
@@ -26,7 +26,7 @@ const ContactUs = () => {
           </div>
           <div
             id="card-2"
-            className="min-h-32 min-w-45 mx-8 my-2 py-5 px-3 shadow-lg rounded-lg md:px-8 md:py-7 bg-[#E8E2D8] md:h-56 md:w-lg"
+            className="min-h-32 min-w-45 mx-8 my-2 py-5 px-3 md:shadow-lg rounded-lg md:px-8 md:py-7 bg-[#E8E2D8] md:h-56 md:w-lg"
           >
             <h2 className="text-xl font-bold text-gray-600 pb-3 md:text-3xl md:pb-6">
               NewYork Office
