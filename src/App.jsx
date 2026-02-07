@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Login from "./Login";
 import SignUp from "./SignUp";
 import Navbar from "./component/Navbar";
@@ -8,11 +8,16 @@ import Home from "./Home";
 import { BrowserRouter } from "react-router-dom";
 
 function App() {
+  const [user, setUser] = useState([]);
+
+  const addUser = (users) => {
+    setUser([...user, users]);
+  }
   return (
     <>
       <BrowserRouter>
         <Navbar />
-        <Home />
+        <SignUp addUser = {addUser}/>
         <Footer />
       </BrowserRouter>
     </>
